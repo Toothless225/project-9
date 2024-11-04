@@ -1,0 +1,35 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.m-heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-white{
+    color:antiquewhite;
+}
+.main-container{
+height:100vh;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url('girl 6.jpg');
+background-attachment: fixed;
+background-size: cover;
+}
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row h1{
+    font-size: 5rem;
+}
+.main_row img{
+width: auto;
+height: 10vh;
+}
